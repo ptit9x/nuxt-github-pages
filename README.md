@@ -8,6 +8,8 @@ Here is how to deploy a Nuxt 3 project on GitHub Pages:
 4. Generate with `npm run generate`
 5. Deploy with `npm run deploy`
 
+Your site is live at https://ptit9x.github.io/nuxt-github-pages/
+
 Router config:
 
 ```ts

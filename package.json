@@ -6,10 +6,11 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
+    "predeploy": "npm run generate",
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "gh-pages": "^4.0.0",
-    "nuxt": "3.0.0-rc.12"
+    "nuxt": "^3.0.0"
   }
 }
